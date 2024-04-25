@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.Pane?>
+
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.DatePicker?>
+<Pane fx:id="relatorio" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="339.0" prefWidth="393.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.porto.pessoa.Controller">
+   <children>
+      <Label layoutX="14.0" layoutY="79.0" text="Nome:" />
+      <Label layoutX="14.0" layoutY="96.0" text="CPF:" />
+      <Label layoutX="14.0" layoutY="113.0" text="Nasc:" />
+      <Label layoutX="14.0" layoutY="130.0" text="Endereço:" />
+      <Label layoutX="14.0" layoutY="147.0" text="Nº" />
+      <Label layoutX="14.0" layoutY="164.0" text="Complemento" />
+      <Label layoutX="14.0" layoutY="181.0" text="Bairro" />
+      <Label layoutX="14.0" layoutY="198.0" text="Cidade" />
+      <Label layoutX="14.0" layoutY="216.0" text="Estado" />
+      <Label layoutX="14.0" layoutY="238.0" text="CEP" />
+      <Label layoutX="16.0" layoutY="257.0" text="Pai" />
+      <Label layoutX="16.0" layoutY="276.0" text="Mãe" />
+      <TextField fx:id="nameField" layoutX="109.0" layoutY="79.0" text="Name File" editable="false" style="-fx-background-color: transparent; -fx-border-width: 0;" />
+      <TextField fx:id="cpfField" layoutX="109.0" layoutY="96.0" text="CPF Field" editable="false" style="-fx-background-color: transparent; -fx-border-width: 0;" />
+      <TextField fx:id="dataTextField" layoutX="109.0" layoutY="113.0"  editable="false" style="-fx-background-color: transparent; -fx-border-width: 0;" />
+      <TextField fx:id="enderecoField" layoutX="109.0" layoutY="130.0" text="End Field" editable="false" style="-fx-background-color: transparent; -fx-border-width: 0;" />
+      <TextField fx:id="numeroField" layoutX="109.0" layoutY="147.0" text="Número Field" editable="false" style="-fx-background-color: transparent; -fx-border-width: 0;" />
+      <TextField fx:id="complementoField" layoutX="109.0" layoutY="164.0" text="Compl Field" editable="false" style="-fx-background-color: transparent; -fx-border-width: 0;" />
+      <TextField fx:id="bairroField" layoutX="109.0" layoutY="181.0" text="Bairro Field" editable="false" style="-fx-background-color: transparent; -fx-border-width: 0;" />
+      <TextField fx:id="cidadeField" layoutX="109.0" layoutY="198.0" text="Cidade Field" editable="false" style="-fx-background-color: transparent; -fx-border-width: 0;" />
+      <TextField fx:id="estadoTextField" layoutX="109.0" layoutY="217.0" text="Estado Field" editable="false" style="-fx-background-color: transparent; -fx-border-width: 0;" />
+      <TextField fx:id="cepField" layoutX="109.0" layoutY="232.0" text="CEP Field" editable="false" style="-fx-background-color: transparent; -fx-border-width: 0;" />
+      <TextField fx:id="paiField" layoutX="109.0" layoutY="253.0" text="Pai Field" editable="false" style="-fx-background-color: transparent; -fx-border-width: 0;" />
+      <TextField fx:id="maeField" layoutX="109.0" layoutY="272.0" text="Mae Field" editable="false" style="-fx-background-color: transparent; -fx-border-width: 0;" />
+      <Label layoutX="14.0" layoutY="25.0" prefHeight="17.0" prefWidth="301.0" text="Relatório dos dados Cadastrados" />
+      <Button layoutX="13.0" layoutY="300.0" mnemonicParsing="false" text="OK" onAction="#limparDados" />
+   </children>
+</Pane>

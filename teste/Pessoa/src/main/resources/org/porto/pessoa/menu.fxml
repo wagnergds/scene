@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.Font?>
+
+<VBox fx:id="rootVBox" fx:controller="org.porto.pessoa.ControllerMenu" prefHeight="400.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+  <children>
+    <MenuBar VBox.vgrow="NEVER">
+      <menus>
+        <Menu mnemonicParsing="false" text="Cadastro">
+          <items>
+            <MenuItem mnemonicParsing="false" text="Cadastro de Dados Pessoais e Localização" onAction="#abrirCadastroPessoas"/>
+            <MenuItem mnemonicParsing="false" text="Informar o Nome dos Pais" onAction="#abrirCadastroPais"/>
+            <MenuItem mnemonicParsing="false" text="Visualizar Cadastro" onAction="#abrirRelatorio" />
+            <SeparatorMenuItem mnemonicParsing="false" />
+            <MenuItem mnemonicParsing="false" text="Terminar" onAction="#fecharAplicacao" />
+          </items>
+        </Menu>
+      </menus>
+    </MenuBar>
+    <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="-1.0" prefWidth="-1.0" VBox.vgrow="ALWAYS">
+      <children>
+        <Label alignment="CENTER" layoutX="155.0" layoutY="177.0" text="Arraste componentes da Biblioteca aqui..." textAlignment="CENTER" textFill="#9f9f9f">
+          <font>
+            <Font size="18.0" />
+          </font>
+        </Label>
+      </children>
+    </AnchorPane>
+  </children>
+</VBox>
